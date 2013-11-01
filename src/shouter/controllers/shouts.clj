@@ -14,5 +14,5 @@
   (ring/redirect "/"))
 
 (defroutes routes
-  (GET "/" [] (index))
-  (GET "/" [shout] (create shout)))
+  (GET  "/" [] (index))
+  (POST "/" [shout] (create shout)))
