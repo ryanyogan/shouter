@@ -1,14 +1,11 @@
 # shouter
 
-A Clojure library designed to ... well, that part is up to you.
+This app can be demo'd at http://wicked-nightmare-6593.herokuapp.com/
+ *haha wicked-nightmare* silly heroku
 
 ## Usage
 
-FIXME
+lein run -m shouter.models.migration (To create database table)
+foreman start
+localhost:5000
 
-## License
-
-Copyright © 2013 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
